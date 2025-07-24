@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/moneyissueInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SplitMoneyApp"
+        android:textSize="20sp"
+        android:layout_margin="16dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:id="@+id/btnAddMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mitglied hinzufügen" />
+
+    <Button
+        android:id="@+id/btnNewMoneyIssue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Neue Ausgabe hinzufügen"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnGroupOverview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kosten-Übersicht"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/appInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Mit der SplitMoney-App können Sie Ausgaben von Einkäufen schnell und Einfach aufteilen. Egal ob zwischen zwei, drei oder mehreren Mitgliedern. Bei der 'Kosten-Übersicht' werden alle Ausgaben und Einnahmen, sowie das Saldo der ausgewählten Person angezeigt. Mit einem Klick auf eine Ausgabe, wird diese entfernt."
+        android:textSize="14sp" />
+</LinearLayout>

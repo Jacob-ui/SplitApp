@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/moneyissueInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Treten Sie einer Gruppe bei oder erstellen Sie eine:"
+        android:textSize="20sp"
+        android:layout_margin="16dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etGroupName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gruppenname" />
+
+    <EditText
+        android:id="@+id/etGroupPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gruppen Passwort"
+        android:inputType="textPassword"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnCreateGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gruppe erstellen"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnJoinGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gruppe beitreten"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/memberInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wähle eine Person aus:"
+        android:textSize="16sp"
+        android:layout_margin="16dp" />
+
+    <Spinner
+        android:id="@+id/spinnerFilterMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Das Saldo zeigt an, wieviel Geld die ausgewählte Person noch erhält!"
+        android:textSize="16sp"
+        android:layout_margin="16dp" />
+
+    <TextView
+        android:id="@+id/tvSaldo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saldo:"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/deleteInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Klick auf die Checkbox in der Transaktion um sie endgültig zu löschen!"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp" />
+
+    <LinearLayout
+        android:id="@+id/layoutTransactions"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:scrollbars="vertical"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zurück"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textTransactions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hier wird angezeigt, von wem die ausgewählte Person noch Geld erhält bzw. wem diese Person noch Geld schuldet. Mit einem Klick auf die Checkbox der jeweiligen Transaktion wird diese gelöscht!"
+        android:textSize="16sp"
+        android:layout_margin="16dp" />
+</LinearLayout>
